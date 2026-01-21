@@ -1,0 +1,30 @@
+#Loader{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 450px;
+    top: 150px;
+    background-color: white;
+    border:  25px  rgb(219, 220, 183) solid;
+    border-top: 25px rgb(18, 228, 239) solid;
+    border-radius: 50%;
+    animation: spin 2s ease-in 0s infinite normal;
+
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#word{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 535px;
+    top: 180px;
+}
